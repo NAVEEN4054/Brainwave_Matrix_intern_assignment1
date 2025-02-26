@@ -1,5 +1,4 @@
 # Library Management System
-# Library Management System
 
 ## Introduction
 The Library Management System is a database project designed to efficiently manage library operations such as book inventory, member records, and transaction management. The system is built using SQL to store, retrieve, and manipulate library-related data.
