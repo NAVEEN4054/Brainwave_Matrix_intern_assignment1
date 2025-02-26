@@ -1,4 +1,6 @@
+-----------------------------------------------------------------------------------------
 -- For Issueing book
+-----------------------------------------------------------------------------------------
 CREATE PROCEDURE IssueBook(IN memberID INT, IN bookID INT)  
 BEGIN  
     DECLARE bookCount INT;
@@ -12,7 +14,9 @@ BEGIN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Book not available';  
     END IF;  
 END;
+-----------------------------------------------------------------------------------------
 -- For Returning book with Fine Calculation
+-----------------------------------------------------------------------------------------
 CREATE PROCEDURE ReturnBook(IN transactionID INT)  
 BEGIN  
     DECLARE dueDate DATE;
