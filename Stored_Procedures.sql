@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------
--- For Issueing book
+**For Issueing book**
 -----------------------------------------------------------------------------------------
 CREATE PROCEDURE IssueBook(IN memberID INT, IN bookID INT)  
 BEGIN  
@@ -15,7 +15,7 @@ BEGIN
     END IF;  
 END;
 -----------------------------------------------------------------------------------------
--- For Returning book with Fine Calculation
+**For Returning book with Fine Calculation**
 -----------------------------------------------------------------------------------------
 CREATE PROCEDURE ReturnBook(IN transactionID INT)  
 BEGIN  
